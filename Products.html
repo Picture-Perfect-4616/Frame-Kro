@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Frame Kro</h2>
+          <div class="toggle"></div>
+        </header>
+        <!-- <div class="overlay"></div> -->
+        <div class="heading">
+            <h2>PRODUCTS</h2>
+            <hr>
+        </div>
+        <div class="box">
+            <div class="sub-box">
+                <video id="anime-vid" src="./goku.mp4" muted loop autoplay></video>
+                <a class="link" href="offer.html"><h3 class="prod-btn">ANIME</h3></a>
+            </div>
+            <div class="sub-box">
+                <video id="sports-vid" src="./messi.mp4" muted loop autoplay></video>
+                <a class="link" href="offer.html"><h3 class="prod-btn">SPORTS</h3></a>
+            </div>
+        </div>
+       
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="offer.html">Offers</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <!-- <li><a href="#"></a></li> -->
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle = document.querySelector('.toggle');
+          const showcase = document.querySelector('.showcase');
+    
+          menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+          })
+      </script>
+</body>
+</html>

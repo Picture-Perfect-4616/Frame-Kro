@@ -6,6 +6,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.heading h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2rem;
+}
+.heading hr{
+  border: 2px solid black;
+   
+}
 header
 {
   position: absolute;
@@ -62,7 +72,7 @@ header .logo
   right: 230px;
 }
 
-.showcase video
+#main-vid video
 {
   position: absolute;
   top: 0;
@@ -207,5 +217,8 @@ header .logo
   .showcase.active
 {
   right: 300px;
+}
+.heading h2{
+  margin-top: 20px;
 }
 }
