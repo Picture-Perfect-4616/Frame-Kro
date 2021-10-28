@@ -7,7 +7,7 @@
 
 .sub-box{
     
-    height: 350px;
+    height: 450px;
     width: 100%;
 }
 .sub-box:nth-child(2){
@@ -16,11 +16,12 @@
 
 .prod-btn {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 10px;
     border-radius: 30px;
-    background-color: yellow;
+    background-color: rgb(1, 250, 175);
     cursor: pointer;
+    color: rgb(5, 5, 5);
     border: 2px solid black;
 }
 .link{
