@@ -86,11 +86,12 @@ header .logo
 {
   position: relative;
   z-index: 10;
+  transform: translateY(180px);
 }
 
 .text h2
 {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 800;
   color: rgb(255, 255, 255);
   line-height: 1em;
@@ -115,7 +116,7 @@ header .logo
 .text a
 {
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.8em;
   background: #fff;
   padding: 10px 30px;
   text-transform: uppercase;
@@ -194,7 +195,7 @@ header .logo
   }
   .text h2
   {
-    font-size: 3em;
+    font-size: 2em;
   }
   .text h3
   {
