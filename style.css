@@ -20,7 +20,7 @@ header
 }
 header .logo
 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -29,7 +29,7 @@ header .logo
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background: url(/menu\ \(1\).png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -37,7 +37,7 @@ header .logo
 }
 .toggle.active
 {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background: url(/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -50,16 +50,16 @@ header .logo
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  /* background: #111; */
   transition: 0.5s;
   z-index: 2;
 }
 .showcase.active
 {
-  right: 300px;
+  right: 230px;
 }
 
 .showcase video
@@ -92,7 +92,7 @@ header .logo
 {
   font-size: 5em;
   font-weight: 800;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -100,14 +100,14 @@ header .logo
 {
   font-size: 4em;
   font-weight: 700;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1em;
   text-transform: uppercase;
 }
 .text p
 {
   font-size: 1.1em;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
@@ -200,4 +200,11 @@ header .logo
   {
     font-size: 2em;
   }
+}
+
+@media (min-width:900px) {
+  .showcase.active
+{
+  right: 300px;
+}
 }
