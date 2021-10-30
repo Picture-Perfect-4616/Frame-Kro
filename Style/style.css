@@ -38,11 +38,11 @@ header .logo
 .toggle
 {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background: url(../Images/small/menu.png);
   background-repeat: no-repeat;
-  background-size: 30px;
+  background-size: 40px;
   background-position: center;
   cursor: pointer;
 }
