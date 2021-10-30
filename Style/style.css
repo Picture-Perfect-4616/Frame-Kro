@@ -42,7 +42,7 @@ header .logo
   height: 60px;
   background: url(../Images/small/menu.png);
   background-repeat: no-repeat;
-  background-size: 60px;
+  background-size: 50px;
   background-position: center;
   cursor: pointer;
 }
